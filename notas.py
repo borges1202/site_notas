@@ -1,12 +1,12 @@
 import streamlit as st
 #Titulo.
-st.title("Calculadora de notas.")
 
 #Sidebar para escolher a materia
 with st.sidebar:
   st.header('Escolha a Materia')
   materia = st.selectbox('Escolha uma opção', ['','Matematica', 'Biologia', 'Fisica', 'Lingua Portuguesa',
  'Arte', 'Historia', 'Quimica', 'Geografia', 'Ingles', 'Filosofia/Sociologia']).upper()
+try:
 
 #Se a materia não for escolhida, vai aparece 'esperando a materia'.
 if materia == '':
