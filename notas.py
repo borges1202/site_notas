@@ -39,3 +39,5 @@ try:
       st.write(f'Sua media final em {materia} foi e igual a {nota_final:.2f}')
 except:
   st.error('Seu navegador não suporta o site')
+
+#Fazndo um teste do repositorio
